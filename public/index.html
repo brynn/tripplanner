@@ -1,12 +1,69 @@
 <!DOCTYPE html>
-  <html>
-    <title>Trip Planner</title>
+<html>
+  <title>Trip Planner</title>
 
-    <link href='https://api.mapbox.com/mapbox-gl-js/v0.51.0/mapbox-gl.css' rel='stylesheet' />
-    <link rel='stylesheet' href='./style.css'/>
-    <script src='./bundle.js' defer></script>
-    <body>
+  <link
+    href="https://api.mapbox.com/mapbox-gl-js/v0.51.0/mapbox-gl.css"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="./style.css" />
+  <script src="./bundle.js" defer></script>
+  <body>
+    <nav></nav>
+    <div id="container">
       <div id="map"></div>
-    </body>
-
+      <div id="panel">
+        <div id="options">
+          <div>
+            <h3>Hotels</h3>
+            <select>
+              <option value="hotel1">Hotel 1</option>
+              <option value="hotel2">Hotel 2</option>
+              <option value="hotel3">Hotel 3</option>
+            </select>
+            <button>Submit</button>
+          </div>
+          <div>
+            <h3>Restaurants</h3>
+            <select>
+              <option value="restaurant1">Restaurant 1</option>
+              <option value="restaurant2">Restaurant 2</option>
+              <option value="restaurant3">Restaurant 3</option>
+            </select>
+            <button>Submit</button>
+          </div>
+          <div>
+            <h3>Things To Do</h3>
+            <select>
+              <option value="activity1">Activity 1</option>
+              <option value="activity2">Activity 2</option>
+              <option value="activity3">Activity 3</option>
+            </select>
+            <button>Submit</button>
+          </div>
+        </div>
+        <div id="itinerary">
+          <h2>Itinerary</h2>
+          <div>
+            <h3>My Hotels</h3>
+            <ul>
+              <li>Hotel 1</li>
+            </ul>
+          </div>
+          <div>
+            <h3>My Restaurants</h3>
+            <ul>
+              <li>Restaurant 1</li>
+            </ul>
+          </div>
+          <div>
+            <h3>My Activities</h3>
+            <ul>
+              <li>Activity 1</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
